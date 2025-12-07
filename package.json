@@ -1,0 +1,19 @@
+{
+  "name": "smart-task-planner",
+  "version": "1.0.0",
+  "description": "Smart Task Planner - Break goals into actionable tasks with AI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["task-planner", "ai", "goals"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
